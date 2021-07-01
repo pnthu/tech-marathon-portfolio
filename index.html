@@ -2,40 +2,180 @@
 <html>
   <head>
     <title>Tech Marathon Portfolio</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/statistics.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="css/testimonial.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/pricing.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link
       href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
+    <div class="flex-row header">
+      <nav class="flex-row">
+        <a href="https://shecodesvietnam.com/#/" target="_blank"
+          ><img src="img/logo.png" height="30px"
+        /></a>
+        <ul class="flex-row" style="margin: 0">
+          <li class="nav-link"><a href="#home">Home</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#services">Services</a></li>
+          <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-link"><a href="#blog">Blog</a></li>
+          <li class="nav-link"><a href="#pricing">Pricing</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section id="home" class="background-image hero-wrap">
+      <div>
+        <div class="subheading">Hi There!</div>
+        <h1>We are SheCodes</h1>
+        <div style="width: 500px">
+          <p style="color: #fff">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <p style="margin: 24px 0 48px">
+            <a href="#" class="btn btn-primary" style="padding: 16px 24px"
+              >Hire Me
+              <span
+                class="fa fa-long-arrow-right"
+                style="margin-left: 10px"
+              ></span
+            ></a>
+            <a href="#" class="btn btn-white"
+              >View Portfolio
+              <span
+                class="fa fa-long-arrow-right"
+                style="margin-left: 10px"
+              ></span
+            ></a>
+          </p>
+          <p class="social-media">
+            <a href="#"><i class="fa fa-plus"></i>Facebook</a>
+            <a href="#"><i class="fa fa-plus"></i>Twitter</a>
+            <a href="#"><i class="fa fa-plus"></i>Linkedin</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="background-image about-img"></div>
+      <div class="about-right">
+        <div class="nav-item"><a href="#">ABOUT ME</a></div>
+        <div>
+          <h2 style="margin: 24px 0 8px">My Story</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.
+          </p>
+          <h3>I Do Web Design & Developement since I was 18 Years Old</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+      </div>
+    </section>
     <section id="services">
       <div class="heading-section">
         <span class="subheading">SERVICES</span>
-        <h2>This is My Expertise, The Services I'll Provide My Clients</h2>
+        <h2>
+          This is My Expertise, The <br />
+          Services I'll Provide My Clients
+        </h2>
+      </div>
+      <div class="flex-row section-content">
+        <div class="services-item">
+          <div class="img-bg">
+            <img src="img/code.svg" width="40px" />
+          </div>
+          <h3>UI & UX Design</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <a href="#">
+            Read more
+            <span class="fa fa-long-arrow-right"></span>
+          </a>
+        </div>
+        <div class="services-item">
+          <div class="img-bg">
+            <img src="img/web-programming.svg" width="40px" />
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <a href="#">
+            Read more
+            <span class="fa fa-long-arrow-right"></span>
+          </a>
+        </div>
+        <div class="services-item">
+          <div class="img-bg">
+            <img src="img/vector.svg" width="40px" />
+          </div>
+          <h3>Graphic Design</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <a href="#">
+            Read more
+            <span class="fa fa-long-arrow-right"></span>
+          </a>
+        </div>
+      </div>
+      <div class="services-contact">
+        <strong>
+          Have any works you want to done by me?
+          <a href="#">Contact Me</a>
+        </strong>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
       </div>
     </section>
-    <section id="statistics">
+    <section id="statistics" class="background-image">
       <div class="overlay"></div>
-      <div class="statistics-container">
-        <div>
-          <img src="img/customer-review.svg" width="60px" style="margin-right: 20px;" />
-          <div style="display:flex; flex-direction: column;">
-            <span class="number">3,000</span>
+      <div class="flex-row statistics-container">
+        <div class="flex-row">
+          <img
+            src="img/customer-review.svg"
+            width="60px"
+            style="margin-right: 20px"
+          />
+          <div class="flex-column">
+            <span class="statistics-number">3,000</span>
             <span class="caption">HAPPY CUSTOMERS</span>
           </div>
         </div>
-        <div>
-          <img src="img/complete.svg" width="60px" style="margin-right: 20px;" />
-          <div style="display:flex; flex-direction: column;">
-            <span class="number">320</span>
+        <div class="flex-row">
+          <img src="img/complete.svg" width="60px" style="margin-right: 20px" />
+          <div class="flex-column">
+            <span class="statistics-number">320</span>
             <span class="caption">PROJECTS COMPLETED</span>
           </div>
         </div>
-        <div>
-          <img src="img/coffee.svg" width="60px" style="margin-right: 20px;" />
-          <div style="display:flex; flex-direction: column;">
-            <span class="number">1,000</span>
+        <div class="flex-row">
+          <img src="img/coffee.svg" width="60px" style="margin-right: 20px" />
+          <div class="flex-column">
+            <span class="statistics-number">1,000</span>
             <span class="caption">CUPS OF COFFEE</span>
           </div>
         </div>
@@ -47,42 +187,60 @@
         <h2>My Latest Work</h2>
       </div>
       <div class="blog-content">
-        <div class="project" style="background-image: url(img/portfolio-1.png);">
+        <div
+          class="background-image project"
+          style="background-image: url(img/portfolio-1.png)"
+        >
           <div class="overlay"></div>
           <div class="project-text">
             <h3>Branding & Illustration Design</h3>
             <span>WEB DESIGN</span>
           </div>
         </div>
-        <div class="project" style="background-image: url(img/portfolio-2.png);">
+        <div
+          class="background-image project"
+          style="background-image: url(img/portfolio-2.png)"
+        >
           <div class="overlay"></div>
           <div class="project-text">
             <h3>Branding & Illustration Design</h3>
             <span>WEB DESIGN</span>
           </div>
         </div>
-        <div class="project" style="background-image: url(img/portfolio-3.png);">
+        <div
+          class="background-image project"
+          style="background-image: url(img/portfolio-3.png)"
+        >
           <div class="overlay"></div>
           <div class="project-text">
             <h3>Branding & Illustration Design</h3>
             <span>WEB DESIGN</span>
           </div>
         </div>
-        <div class="project" style="background-image: url(img/portfolio-4.png);">
+        <div
+          class="background-image project"
+          style="background-image: url(img/portfolio-4.png)"
+        >
           <div class="overlay"></div>
           <div class="project-text">
             <h3>Branding & Illustration Design</h3>
             <span>WEB DESIGN</span>
           </div>
         </div>
-        <div class="project" style="background-image: url(img/portfolio-5.png);">
+        <div
+          class="background-image project"
+          style="background-image: url(img/portfolio-5.png)"
+        >
           <div class="overlay"></div>
           <div class="project-text">
             <h3>Branding & Illustration Design</h3>
             <span>WEB DESIGN</span>
           </div>
         </div>
-        <div class="project" style="background-image: url(img/portfolio-6.png);">
+        <div
+          class="background-image project"
+          style="background-image: url(img/portfolio-6.png)"
+        >
           <div class="overlay"></div>
           <div class="project-text">
             <h3>Branding & Illustration Design</h3>
@@ -96,9 +254,9 @@
         <span class="subheading">TESTIMONIAL</span>
         <h2>Our Successful Students</h2>
       </div>
-      <div class="section-content">
-        <div class="testimonial-card">
-          <div class="card-header">
+      <div class="flex-row section-content">
+        <div class="flex-column testimonial-card">
+          <div class="flex-row card-header">
             <div style="position: relative">
               <img src="img/testimonial-1.png" class="testimonial-img" />
               <div class="icon-wrap">
@@ -115,8 +273,8 @@
             Vokalia and Consonantia, there live the blind texts.
           </div>
         </div>
-        <div class="testimonial-card">
-          <div class="card-header">
+        <div class="flex-column testimonial-card">
+          <div class="flex-row card-header">
             <div style="position: relative">
               <img src="img/testimonial-2.png" class="testimonial-img" />
               <div class="icon-wrap">
@@ -133,8 +291,8 @@
             Vokalia and Consonantia, there live the blind texts.
           </div>
         </div>
-        <div class="testimonial-card">
-          <div class="card-header">
+        <div class="flex-column testimonial-card">
+          <div class="flex-row card-header">
             <div style="position: relative">
               <img src="img/testimonial-3.png" class="testimonial-img" />
               <div class="icon-wrap">
@@ -161,7 +319,7 @@
       <div class="blog-content">
         <div class="blog-entry">
           <div
-            class="img"
+            class="background-image img"
             style="background-image: url('img/image_1.jpg')"
           ></div>
           <div class="text">
@@ -187,7 +345,7 @@
         </div>
         <div class="blog-entry">
           <div
-            class="img"
+            class="background-image img"
             style="background-image: url('img/image_2.jpg')"
           ></div>
           <div class="text">
@@ -213,7 +371,7 @@
         </div>
         <div class="blog-entry">
           <div
-            class="img"
+            class="background-image img"
             style="background-image: url('img/image_3.jpg')"
           ></div>
           <div class="text">
@@ -239,7 +397,7 @@
         </div>
         <div class="blog-entry">
           <div
-            class="img"
+            class="background-image img"
             style="background-image: url('img/image_4.jpg')"
           ></div>
           <div class="text">
@@ -265,7 +423,7 @@
         </div>
         <div class="blog-entry">
           <div
-            class="img"
+            class="background-image img"
             style="background-image: url('img/image_5.jpg')"
           ></div>
           <div class="text">
@@ -291,7 +449,7 @@
         </div>
         <div class="blog-entry">
           <div
-            class="img"
+            class="background-image img"
             style="background-image: url('img/image_6.jpg')"
           ></div>
           <div class="text">
@@ -322,8 +480,8 @@
         <span class="subheading">MY PRICING</span>
         <h2>Pricing & Packages</h2>
       </div>
-      <div class="section-content">
-        <div class="pricing-item">
+      <div class="flex-row section-content">
+        <div class="flex-column pricing-item">
           <span class="plan">BASIC PLAN</span>
           <span>
             <sup>$</sup>
@@ -335,7 +493,7 @@
           </p>
           <a href="#" class="btn button">GET STARTED</a>
         </div>
-        <div class="pricing-item">
+        <div class="flex-column pricing-item">
           <span class="plan">BEGINNER PLAN</span>
           <span>
             <sup>$</sup>
@@ -347,7 +505,7 @@
           </p>
           <a href="#" class="btn button">GET STARTED</a>
         </div>
-        <div class="pricing-item">
+        <div class="flex-column pricing-item">
           <span class="plan">PREMIUM PLAN</span>
           <span>
             <sup>$</sup>
@@ -362,7 +520,7 @@
       </div>
     </section>
     <section id="contact">
-      <div class="left">
+      <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1228487091807!2d106.66229861406848!3d10.801901992304233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175292fe33e6ca3%3A0x30a1cbb2b5d98dbf!2zQ8O0bmcgdmnDqm4gSG_DoG5nIFbEg24gVGjhu6U!5e0!3m2!1svi!2s!4v1616903972334!5m2!1svi!2s"
           width="100%"
@@ -392,13 +550,7 @@
           </p>
         </div>
         <form id="contactForm" name="contactForm" class="contactForm">
-          <div
-            style="
-              display: grid;
-              grid-template-columns: 1fr 1fr;
-              column-gap: 24px;
-            "
-          >
+          <div class="form-row">
             <input
               type="text"
               class="form-control"
@@ -429,7 +581,7 @@
             rows="4"
             placeholder="Create a message here"
           ></textarea>
-          <input type="submit" value="Send Message" class="btn submit-btn" />
+          <input type="submit" value="Send Message" class="btn btn-primary" />
         </form>
         <div class="follow-me">
           <h3>Follow me here</h3>
@@ -446,7 +598,7 @@
       <div class="container">
         <div class="contact-left">
           <h2>Have any works you want to done by me?</h2>
-          <p>Far far away, behind the word mountains</p>
+          <p style="margin-top: 0px">Far far away, behind the word mountains</p>
         </div>
         <a href="#" class="btn contact-btn">Contact Me</a>
       </div>
@@ -514,8 +666,21 @@
           </div>
         </div>
       </div>
-    </footer>
 
-    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div class="flex-column credit">
+        <p>
+          Copyright ©2021 All rights reserved | This template is made with
+          <span class="fa fa-heart"></span> by
+          <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        </p>
+        <p>
+          Icons made by
+          <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
