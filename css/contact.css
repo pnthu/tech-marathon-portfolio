@@ -1,0 +1,146 @@
+#contact {
+  padding-bottom: 0px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contactForm .form-control {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  height: 45px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  font-family: inherit;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  border: 1px solid #0779e4 !important;
+  outline: none !important;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.follow-me {
+  margin-top: 48px;
+}
+
+.follow-me h3 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.follow-me p {
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+}
+
+.follow-me p a {
+  color: #0779e4;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.follow-me p a:hover {
+  color: #000;
+}
+
+.contact-me {
+  padding: 3rem !important;
+  color: rgba(255, 255, 255, 0.8);
+  background: #0779e4 !important;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 48px;
+  width: 976px;
+}
+
+.contact-me h2 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.contact-btn {
+  border: 1px solid rgba(255, 255, 255, 0.7) !important;
+  background: 0 0 !important;
+  color: #fff !important;
+  width: 100%;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  height: 50px;
+}
+
+.contact-btn:hover {
+  border: 1px solid transparent !important;
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.right {
+  background-color: white;
+  padding: 3rem;
+}
+
+.right h3 {
+  line-height: 1.5;
+  color: #000000;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+}
+
+.row {
+  display: flex;
+  margin: 0px -12px 24px -12px;
+}
+
+.row p {
+  padding: 0px 12px;
+  width: 33.33333333%;
+}
+
+.row p span {
+  font-weight: 700;
+  color: #000;
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.row p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+}
